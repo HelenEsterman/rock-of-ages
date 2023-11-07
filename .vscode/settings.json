@@ -1,6 +1,12 @@
+// {
+//     "python.linting.pylintArgs": [
+//         "--load-plugins=pylint_django",
+//         "--django-settings-module=rockproject.settings",
+//     ]
+// }
 {
-    "python.linting.pylintArgs": [
-        "--load-plugins=pylint_django",
-        "--django-settings-module=rockproject.settings",
-    ]
+  "pylint.args": [
+    "--load-plugins=pylint_django",
+    "--django-settings-module=digestproject.settings"
+  ]
 }
